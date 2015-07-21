@@ -10,5 +10,9 @@ public class AvisoFinal extends Aviso {
     public AvisoFinal(Compromisso compromisso) {
         super(compromisso);
     }
+    @Override
+    public void run(){
+        System.out.println(this.compromisso.getDescricao()+" começa agora");
+    }
     
 }

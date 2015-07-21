@@ -37,6 +37,7 @@ public class Agenda {
     }
     
     public void novoAviso(Compromisso compromisso, int antecedencia) {
+        compromisso.registraAviso(new Aviso());
 
     }
     
